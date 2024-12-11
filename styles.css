@@ -1,0 +1,50 @@
+/* External CSS */
+
+/* Background color of the webpage */
+body {
+    background-color: #F5FFFA; /* Mint cream background color for the page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Dark gray color for general text */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align text by default */
+}
+
+/* Links Styling */
+a {
+    color: #1E90FF; /* DodgerBlue color for links */
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: #FF1493; /* DeepPink color on hover */
+    text-decoration: underline;
+}
+
+/* Card Component Styling */
+.card {
+    background-color: #FFF8DC; /* Cornsilk background color */
+    border: 2px solid #DAA520; /* Goldenrod border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto; /* Center the card and add margin around it */
+    width: 320px; /* Fixed width for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Card Title */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF4500; /* OrangeRed color for the card title */
+    margin-bottom: 15px;
+}
+
+/* Card Description */
+.card-description {
+    font-size: 16px;
+    color: #2F4F4F; /* DarkSlateGray for card description */
+    line-height: 1.6; /* Set line height for readability */
+}
